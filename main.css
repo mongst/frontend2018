@@ -51,6 +51,11 @@ article {
     padding: 10px;
 }
 
+img {
+  width: 30%;
+  height: auto;
+}
+
 /* Style the footer */
 footer {
     background-color: #777;
