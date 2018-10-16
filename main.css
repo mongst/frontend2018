@@ -25,6 +25,8 @@ header {
 section {
     display: -webkit-flex;
     display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
 }
 
 /* Style the navigation menu */
@@ -51,10 +53,29 @@ article {
     padding: 10px;
 }
 
-img {
-  width: 30%;
-  height: auto;
+.pic {
+  width: 100%;
+  /*border box goes here*/
 }
+
+
+@media (min-width: 275px) {
+  .pic {
+    width: 80%;
+    max-width: 600px;
+  }
+}
+
+
+.pic 1 {
+}
+
+.pic 2 {
+}
+
+.pic 3 {
+}
+
 
 /* Style the footer */
 footer {
@@ -65,10 +86,5 @@ footer {
 }
 
 /* Responsive layout - menu and the content (inside the section) sit on top of each other instead of next to each other */
-@media (max-width: 600px) {
-    section {
-      -webkit-flex-direction: column;
-      flex-direction: column;
-    }
-}
+
 /* End: Menu Style */
