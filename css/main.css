@@ -3,13 +3,11 @@
     box-sizing: border-box;
 }
 
-body {
+body {/
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(63, 191, 191, 0.4);
-}
-
-.style1 {
-  background-color: rgba(63, 191, 191, 0.4);
+    margin: auto;
+    max-width: 85em;
 }
 
 /* Style the header */
@@ -42,15 +40,26 @@ nav {
 nav ul {
     list-style-type: none;
     padding: 0;
+
 }
 
 /* Style the content */
-article {
+.article-group {
+  flex-direction: : column;
     -webkit-flex: 3;
     -ms-flex: 3;
     flex: 3;
-    background-color: #f1f1f1;
-    padding: 10px;
+    background-color: rgba(63, 191, 191, 0.4);
+    /* padding: 10px; */
+
+    max-width: 60em;
+    clear: both;
+}
+
+.article-1 {
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 15px;
 }
 
 .pic {
@@ -59,30 +68,29 @@ article {
 }
 
 
-@media (min-width: 275px) {
+/* Style the footer */
+
+.footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: left;
+    color: white;
+
+}
+
+/* ===============================
+Media Queries
+=============================== */
+@media (min-width: 675px) {
   .pic {
-    width: 80%;
+    width: 70%;
     max-width: 600px;
   }
 }
 
 
-.pic 1 {
-}
+@media (min-width:1025px) {
 
-.pic 2 {
-}
-
-.pic 3 {
-}
-
-
-/* Style the footer */
-footer {
-    background-color: #777;
-    padding: 10px;
-    text-align: left;
-    color: white;
 }
 
 /* Responsive layout - menu and the content (inside the section) sit on top of each other instead of next to each other */
