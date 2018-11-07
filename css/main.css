@@ -7,11 +7,11 @@
 }
 
 /* Style the header */
-header {
+.bbft {
     background-color: #005a87;
     padding: 30px;
     text-align: center;
-    font-size: 45px;
+    font-size: 25em;
     color: f2f5ff;
 }
 
