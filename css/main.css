@@ -1,5 +1,5 @@
 
-.body {/
+.body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(63, 191, 191, 0.4);
     margin: auto;
@@ -7,16 +7,16 @@
 }
 
 /* Style the header */
-.header {
+header {
     background-color: #005a87;
     padding: 30px;
     text-align: center;
-    font-size: 35px;
+    font-size: 45px;
     color: f2f5ff;
 }
 
 .jumbotron {
-  background-color: darkgray;
+  background-color: lightgray;
 }
 
 
@@ -87,5 +87,4 @@ nav ul {
     padding: 10px;
     text-align: center;
     color: f2f5ff;
-
 }
