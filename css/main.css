@@ -1,0 +1,94 @@
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(63, 191, 191, 0.4);
+    margin: auto;
+    max-width: 85em;
+}
+
+/* Style the header */
+.bbft {
+    background-color: #005a87;
+    padding: 30px;
+    text-align: center;
+    font-size: 25em;
+    color: f2f5ff;
+}
+
+.jumbotron {
+  background-color: lightgray;
+}
+
+
+
+/* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+/* Style the navigation menu */
+.nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background color: aqua;
+    padding: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: disc;
+    padding: 0;
+}
+
+
+/* Style the content */
+.article-group {
+  flex-direction: : column;
+  justify-content: center;
+  margin-left: 30px;
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: rgba(63, 191, 191, 0.4);
+    /* padding: 10px; */
+
+    max-width: 60em;
+}
+
+.article-1 {
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 5em;
+}
+
+.article-2 {
+  padding-bottom: 5em
+}
+
+.article-3 {
+  padding-bottom: 5em;
+}
+
+.pic {
+  width: 80%;
+}
+
+
+/* Style the footer */
+
+.footer {
+    background-color: #005a87;
+    padding: 10px;
+    text-align: center;
+    color: f2f5ff;
+}
+
+.date {
+  background-color: lightgray;
+}

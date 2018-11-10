@@ -1,61 +1,95 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 
-<html lang="en">
-<head>
+  <html lang="en">
+    <!-- head content -->
+  <head>
+    <title> < Project > </title>
 
-<link rel="stylesheet" href="main.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+    <!-- /head content -->
 
-<title> < Project > </title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
+  <body class="body">
 
-<h2>< CodeLou > Capstone Project</h2>
-<p>Working webpage containing <strong>HTML, CSS & JS.</strong></p>
-<p>Resize the browser window to test scale.</p>
+  <!-- Style sheets and bootstrap CDN -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <!--/Style sheets and bootstrap CDN -->
 
 
-<header>
+
+  <!-- grey card top section  -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">< CodeLou > Capstone Project</h1>
+      <p class="lead">Working webpage containing <strong>HTML, CSS & JS.</strong></p>
+      <p>Resize the browser window to test scale. E.g. words should wrap, images should resize, nav should change layout.</p>
+    </div>
+  </div>
+  <!-- /grey card top section  -->
+
+
+
+<header class="bbft">
   <h2>Blague Bambosh Fandangle & Tootle [BBFT]</h2>
 </header>
 
-<section>
-  <nav>
-    <ul>
-      <li><a href="#id1">Who and why? Duis</a></li>
-      <li><a href="#id2">What and When? Lorem</a></li>
-      <li><a href="#id3">BBFT?</a></li>
-    </ul>
-  </nav>
-  </section>
+<!-- bootstrap navigation section  -->
 <div>
+<a name="id2top"></a>
+<nav class="nav hover">
+  <a class="nav-link" href="#id1">Who and why?</a>
+  <a class="nav-link" href="#id2">What and When?</a>
+  <a class="nav-link" href="#id3">BBFT?</a>
+</nav>
+</div>
+<!-- /bootstrap navigation section  -->
 
-  <div>
-    <article class=style1>
+
+</div>
+
+<!-- /navigation section  -->
+
+
+<!-- article section  -->
+
+<div class="article-group">
+
+<div class="article-1">
+    <article>
       <a name="id1"></a>
+      <img src="img/apt-art.jpg" alt="Urban Art" class="pic">
     <h1>Who and Why? Duis</h1>
     <p>Duis aute irure</p>
     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-  </article>
-    </div>
-
-<div>
-  <article class=style1>
-    <a name="id2"></a>
-    <h1>What and When? Lorem</h1>
-    <p>Lorem ipsum</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    <a href="#id2top">Back to menu</a>
   </article>
   </div>
 
-<div>
-  <article class=style1>
+<div class="article-2">
+  <article>
+    <a name="id2"></a>
+    <img src="img/looking-down.jpg" alt="View of forrest" class="pic">
+
+    <h1>What and When? Lorem</h1>
+    <p>Lorem ipsum</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    <a href="#id2top">Back to menu</a>
+  </article>
+</div>
+
+
+<div class="article-3">
+  <article>
     <a name="id3"></a>
+    <img src="img/looking-out.jpg" alt="View of Mountain" class="pic">
+
     <h1>About the Name</h1>
     <p>What does BBFT stand for?</p>
     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </p>
+      A</p>
       <ul>
             <li>
               Blague - pretentious nonsense
@@ -70,21 +104,24 @@
               Tootle -nonsensical writing or speech
               </li>
             </ul>
+            <a href="#id2top">Back to menu</a>
+
   </article>
   </div>
+</div>
 
-  </div>
+<!-- /article section  -->
 
+<!--  footer section  -->
 
+<footer class="footer">
 
-<footer>
-    <p>How I Named the List</P>
-
-
-<p>
-Thanks for looking!</p>
+ <p>Page by: John Smith</p>
+ <p>Contact information: <a href="mailto:someone@example.com">
+ someone@example.com</a>.</p>
 
 </footer>
 
+<script src="js/script.js"></script>
 </body>
 </html>
