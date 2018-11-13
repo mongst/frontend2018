@@ -11,8 +11,29 @@
     background-color: #005a87;
     padding: 30px;
     text-align: center;
+
     font-size: 25em;
-    color: f2f5ff;
+    color: #f2f9ff;
+}
+
+.toggler {
+  width: 500px;
+  height: 200px;
+}
+#button {
+  padding: .5em 1em;
+  text-decoration: none;
+}
+#effect {
+  position: relative;
+  width: 500px;
+  height: 200px;
+  padding: 0.4em;
+}
+#effect h3 {
+  margin: 0;
+  padding: 0.4em;
+  text-align: center;
 }
 
 .jumbotron {
@@ -86,7 +107,7 @@ nav ul {
     background-color: #005a87;
     padding: 10px;
     text-align: center;
-    color: f2f5ff;
+    color: #f2f9ff;
 }
 
 .date {
