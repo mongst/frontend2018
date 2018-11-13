@@ -8,7 +8,7 @@ $( function() {
   // run the currently selected effect
   function runEffect() {
     // get effect type from
-    var selectedEffect = $( "#effectType" ).val();
+    var selectedEffect = "slide";
 
     // Most effect types need no options passed by default
     var options = {};
@@ -23,7 +23,7 @@ $( function() {
     $( "#effect" ).toggle( selectedEffect, options, 500 );
   };
 
-  // Set effect from select menu value
+  // button
   $( "#button" ).on( "click", function() {
     runEffect();
   });
