@@ -12,7 +12,8 @@ Frontend2018 is a basic website that contains HTML CSS and JavaScript.
 
 ## Description of project:
 
-### Index.HTML
+When viewing the index.html, .CSS &. JS page you will see comments on code throughout.
+
 The project I built is a basic article page.  It opens with two JavaScript alerts greeting you and then welcoming you to the page.
 
 At the top of the page is the "Hide/Show" Button that will move the project description on or off the page with a "slide" effect.
