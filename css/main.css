@@ -20,6 +20,9 @@
   width: 500px;
   height: 200px;
 }
+
+/* hide/show js button */
+
 #button {
   padding: .5em 1em;
   text-decoration: none;
@@ -35,11 +38,6 @@
   padding: 0.4em;
   text-align: center;
 }
-
-.jumbotron {
-  background-color: lightgray;
-}
-
 
 
 /* Container for flexboxes */
@@ -66,7 +64,6 @@ nav ul {
     list-style-type: disc;
     padding: 0;
 }
-
 
 /* Style the content */
 .article-group {
@@ -100,7 +97,6 @@ nav ul {
   width: 80%;
 }
 
-
 /* Style the footer */
 
 .footer {
@@ -108,8 +104,4 @@ nav ul {
     padding: 10px;
     text-align: center;
     color: #f2f9ff;
-}
-
-.date {
-  background-color: lightgray;
 }
