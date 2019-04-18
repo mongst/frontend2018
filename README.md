@@ -1,5 +1,4 @@
-# CodeLou - FrontEnd - Fall 2018
-Website Project for Sept 2018 Front End Class.
+# FrontEnd - Fall 2018
 
 Frontend2018 is a basic website that contains HTML CSS and JavaScript.
 
